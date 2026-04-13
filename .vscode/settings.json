@@ -1,11 +1,3 @@
 {
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        "target": true,
-        ".mule": true
-    }
+    "mule.project.javaVersion": "21"
 }
