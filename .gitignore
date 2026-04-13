@@ -13,9 +13,9 @@
 # ------------------------------------------------------------------------------------------- #
 *.pydevproject
 .metadata
-bin/**
-tmp/**
-tmp/**/*
+.gradle
+bin/
+tmp/
 *.tmp
 *.bak
 *.swp
@@ -23,8 +23,6 @@ tmp/**/*
 local.properties
 .settings/
 .loadpath
-.project
-.classpath
 
 # External tool builders
 .externalToolBuilders/
@@ -42,11 +40,7 @@ local.properties
 # Studio-specific #
 # --------------- #
 target/
-.mule/
+.mule/**
+.mule/**/*
 .DS_Store
 velocity.log
-
-# ------------------------------------------------------------------------------ #
-# ACB defaults #
-# ------------------------------------------------------------------------------ #
-.tooling-project
